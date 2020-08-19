@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MyRetrofitBasicApplication</string>
+    <string name="my_retrofit_basic_application">My Retrofit Basic Application</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="s_pref_file">sahil.mulla.myretrofitbasicapplication.sh_preference_file</string>
+    <string name="s_pref_login_status">sahil.mulla.myretrofitbasicapplication.sh_preference_login_status</string>
+    <string name="s_pref_login_name">sh_preference_name</string>
+    <string name="s_pref_login_email">sh_preference_email</string>
+    <string name="s_pref_login_date">sh_preference_date</string>
+
+
+</resources>
