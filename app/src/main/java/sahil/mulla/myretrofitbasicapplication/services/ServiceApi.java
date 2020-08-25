@@ -10,8 +10,10 @@ public interface ServiceApi {
     Call<User> doRegisteration(
             @Query("name") String name,
             @Query("email") String email,
+
             @Query("phone") String phone,
             @Query("password") String password
+
     );
 
     @GET("login.php")

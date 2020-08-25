@@ -32,7 +32,7 @@ public class AppPreference {
 
     public void setDisplayName(String name)
     {
-        editor.putString(String.valueOf(R.string.s_pref_login_name),"Name");
+        editor.putString(String.valueOf(R.string.s_pref_login_name),name);
         editor.commit();
     }
 
@@ -45,7 +45,7 @@ public class AppPreference {
     //email
     public void setDisplayEmail(String email)
     {
-        editor.putString(String.valueOf(R.string.s_pref_login_email),"Email");
+        editor.putString(String.valueOf(R.string.s_pref_login_email),email);
         editor.commit();
     }
 
@@ -57,7 +57,7 @@ public class AppPreference {
     //date
     public void setDisplayDate(String date)
     {
-        editor.putString(String.valueOf(R.string.s_pref_login_date),"Date");
+        editor.putString(String.valueOf(R.string.s_pref_login_date),date);
         editor.commit();
     }
 
